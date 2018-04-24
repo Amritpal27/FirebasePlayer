@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myposts"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My posts" />
+        <item
+            android:id="@+id/nav_like_posts"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="like" />
+        <item
+            android:id="@+id/nav_recent_posts"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Recent posts" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/pen"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+</menu>
